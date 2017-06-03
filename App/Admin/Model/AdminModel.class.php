@@ -43,6 +43,7 @@ class AdminModel extends Model
 	{
 		$role_id=I('post.role_id');
 		$admin_id=$data['id'];
+        
 		M('AdminRole')->add(array(
             'role_id'=>$role_id,
             'admin_id'=>$admin_id,

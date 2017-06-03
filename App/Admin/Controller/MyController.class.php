@@ -6,6 +6,7 @@ class MyController extends Controller
 	public function _initialize()
 	{
 		$url = MODULE_NAME.'/'. CONTROLLER_NAME.'/'. ACTION_NAME;
+		
 		$admin_id=$_SESSION['admin_id'];
 
 		if($admin_id>0){
